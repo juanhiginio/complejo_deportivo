@@ -1,0 +1,13 @@
+spring.application.name=complejo_deportivo
+spring.datasource.url=spring.datasource.url
+spring.datasource.username=spring.datasource.username
+spring.datasource.password=spring.datasource.password
+server.servlet.context-path=server.servlet.context-path
+spring.jpa.show-sql=spring.jpa.show-sql
+#spring.jpa.open-in-view=#spring.jpa.open-in-view
+#logging.level.org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer=ERROR
+
+# JWT  replace secret with your own 256-bit base64-encoded key in production
+jwt.secret=jwt.secret
+# 24 hours in milliseconds
+jwt.expiration=86400000
